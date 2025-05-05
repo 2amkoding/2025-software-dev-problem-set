@@ -35,10 +35,6 @@ class Solution {
 
                 //Step 5 : mark the digits as seen
 
-
-
-
-
             }
         }
         return true;
