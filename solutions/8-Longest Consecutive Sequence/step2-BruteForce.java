@@ -13,6 +13,9 @@
     //Sort First = O(n log n)
     //HashSetbased = O(n)
 
+// Next Steps:
+    // Use HashSet
+
 class Solution {
     public int longestConsecutive(int[] nums) {
 
