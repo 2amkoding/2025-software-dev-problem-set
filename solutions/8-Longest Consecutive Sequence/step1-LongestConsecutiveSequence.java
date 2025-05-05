@@ -1,6 +1,5 @@
 
 Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
-
 You must write an algorithm that runs in O(n) time.
 
 Example 1:
@@ -25,3 +24,13 @@ class Solution {
 
     }
 }
+
+//Thoughts
+    // Brute Force
+        // Sort Array
+        // Loop thru array from index[1]
+        // CurrentValue = index[0]
+        // if index[1] == index[0]+1
+        // counter += 1
+        // currentValue += 1
+        // return counter
