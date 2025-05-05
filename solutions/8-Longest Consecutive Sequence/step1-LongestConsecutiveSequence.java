@@ -25,12 +25,3 @@ class Solution {
     }
 }
 
-//Thoughts
-    // Brute Force
-        // Sort Array
-        // Loop thru array from index[1]
-        // CurrentValue = index[0]
-        // if index[1] == index[0]+1
-        // counter += 1
-        // currentValue += 1
-        // return counter
