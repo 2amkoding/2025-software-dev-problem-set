@@ -5,7 +5,10 @@
     //  Loop thru set, if currentValue - 1 exists, currentValue cannot be the startingValue.
     // currentSequence stays at 1. We are not interested in calculating sequence until finding the startingValue
 
-
+//Count Sequence
+// if currentValue + 1 exists, ++currentSequence
+// update HighestRecordOfSequence
+// Compare HighestRecordOfSequence vs currentSequence
 
 class Solution {
     public int longestConsecutive(int[] nums) {
