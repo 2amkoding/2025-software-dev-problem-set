@@ -23,3 +23,27 @@ else
     rightValue--
 //or
 
+/*
+[] toLowerCase()
+[] remove all non-alphanumeric
+
+c i  v i c
+^        ^
+L        R
+
+L = char[0]
+R - char[string.length-1]
+
+
+{
+c : c
+i : I
+v : v
+i : i
+c : c
+}
+
+**over-kill, takes extra space,
+overwriting problem -> requires more complexity
+ */
+
