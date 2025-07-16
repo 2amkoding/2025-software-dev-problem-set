@@ -36,3 +36,8 @@ difference: 9 - 7 = 2
 
 if map contains key: 2,
 exit loop and return: map {0, 1}
+
+| i   | nums[i] | map before | map[nums[i]] = i | map after  |
+| --- | ------- | ---------- | ---------------- | ---------- |
+| 0   | 2       | {}         | map[2] = 0       | {2:0}      |
+| 1   | 7       | {2:0}      | map[7] = 1       | {2:0, 7:1} |
