@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/01-Contains Duplicate" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04-GroupAnagrams" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06-ProductOfArrayExceptSelf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07-ValidSudoku" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08-Longest Consecutive Sequence" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/09-ValidPalindrome" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10-Two Sum II Input Array Is Sorted" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11-3Sum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12-Container With Most Water" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13-Valid-Parenthesis" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
