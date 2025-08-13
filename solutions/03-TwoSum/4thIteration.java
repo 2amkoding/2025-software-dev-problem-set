@@ -4,14 +4,14 @@ class Solution {
 
         Map<Integer, Integer> mapper = new HashMap<>();
 
-        for(int i = 0; i < nums.length; i++) {
-            int difference = target - nums[i];
+        for(int left = 0; left < nums.length; left++) {
+            int right = target - nums[left];
 
-            if(mapper.containsKey(difference)) {
-                return new int[] { mapper.get(difference), i };
+            if(mapper.containsKey(right)) {
+                return new int[] { mapper.get(right), left };
             }
 
-            mapper.put(nums[i], i);
+            mapper.put(nums[left], left);
         }
 
         return new int[0];
